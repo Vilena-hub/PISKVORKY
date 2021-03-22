@@ -14,6 +14,11 @@ body {
 }
 .tlacitko-pravidla {
   background-color: #1fcca4;
+  color:white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
 }
 .tlacitko-pravidla:hover {
   background-color: #1cbb96;
@@ -21,7 +26,17 @@ body {
 
 .tlacitko-hrat {
   background-color: #0197f6;
+  color:white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
 }
 .tlacitko-hrat:hover {
   background-color: #0090e9;
+}
+
+a {
+  color:white;
+  text-decoration:none;
 }
