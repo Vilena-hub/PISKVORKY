@@ -11,14 +11,13 @@ body {
   min-height: 100vh;
   justify-content: center;
   align-items: center;
-  display: flex;
 }
-.obrazek {
-  width: 50%;
-}
-.texty {
+
+.box {
   background-color: #283e50;
-  margin: 30px auto;
+  width: 400px;
+  margin: 10px auto;
+  border-radius: 15px 15px 0 0;
 }
 .tlacitko-pravidla {
   background-color: #1fcca4;
