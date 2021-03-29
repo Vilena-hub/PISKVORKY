@@ -4,6 +4,7 @@ h1 {
   margin: 20px;
 }
 body {
+  display:flex;
   background-image: linear-gradient(#615dad, #ffc8da);
   color: #ffffff;
   text-align: center;
@@ -11,14 +12,19 @@ body {
   min-height: 100vh;
   justify-content: center;
   align-items: center;
+  font-family:sans-serif;
 }
 
 .box {
   background-color: #283e50;
   width: 400px;
   margin: 10px auto;
+}
+
+.obrazek {
   border-radius: 15px 15px 0 0;
 }
+
 .tlacitko-pravidla {
   background-color: #1fcca4;
   color: white;
@@ -26,6 +32,7 @@ body {
   text-align: center;
   font-size: 16px;
   margin: 4px 2px;
+  border-bottom: 1px solid black;
 }
 .tlacitko-pravidla:hover {
   background-color: #1cbb96;
