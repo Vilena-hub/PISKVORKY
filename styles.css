@@ -59,8 +59,9 @@ a {
   padding-left:20px;
 }
 
-.textyPravidla {
-  text-align:start;
+.textyPravidla li {
+  margin-top:10px;
+  text-align:justify;
 }
 
 .pravidla {
@@ -70,15 +71,29 @@ a {
 
 img.instructions {
  margin-top:20px;
- max-width:300px;
+ width:100%;
 }
 
 .kontejner {
   background-color: #283e50;
   border-radius: 15px 15px 0 0;
   margin: 15px auto;
-  max-width:900px;
-  display:flex;
-  flex-wrap:wrap;
+  width:800px;
 }
 
+.instrukce {
+font-size:12px;
+text-align:justify;
+}
+
+
+@media screen and (min-width:800px){
+	.obrazky{
+		display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;}
+
+.instrukce {
+flex-basis:calc((100% - 20px) / 2);
+}
+    }
