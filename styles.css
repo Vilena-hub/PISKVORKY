@@ -4,20 +4,19 @@ h1 {
   margin: 20px;
 }
 body {
-  display:flex;
   background-image: linear-gradient(#615dad, #ffc8da);
   color: #ffffff;
   text-align: center;
+  justify-content:center;
   background-size: 100%;
   min-height: 100vh;
-  justify-content: center;
   align-items: center;
   font-family:sans-serif;
 }
 
 .box {
   background-color: #283e50;
-  width: 400px;
+  width: 350px;
   margin: 10px auto;
 }
 
@@ -70,9 +69,16 @@ a {
 }
 
 img.instructions {
- width:300px;
  margin-top:20px;
+ max-width:300px;
 }
-ol {
-  margin-top:20px;
+
+.kontejner {
+  background-color: #283e50;
+  border-radius: 15px 15px 0 0;
+  margin: 15px auto;
+  max-width:900px;
+  display:flex;
+  flex-wrap:wrap;
 }
+
