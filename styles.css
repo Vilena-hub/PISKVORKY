@@ -25,7 +25,7 @@ body {
   border-radius: 15px 15px 0 0;
 }
 
-.tlacitko-pravidla {
+.tlacitko-pravidla,.tlacitko-uvod {
   background-color: #1fcca4;
   color: white;
   padding: 15px 32px;
@@ -34,7 +34,7 @@ body {
   margin: 4px 2px;
   border-bottom: 1px solid black;
 }
-.tlacitko-pravidla:hover {
+.tlacitko-pravidla:hover, .tlacitko-uvod:hover {
   background-color: #1cbb96;
 }
 
@@ -53,4 +53,26 @@ body {
 a {
   color: white;
   text-decoration: none;
+}
+
+.piskvorky {
+  padding-right:20px;
+  padding-left:20px;
+}
+
+.textyPravidla {
+  text-align:start;
+}
+
+.pravidla {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+img.instructions {
+ width:300px;
+ margin-top:20px;
+}
+ol {
+  margin-top:20px;
 }
