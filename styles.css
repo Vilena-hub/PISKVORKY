@@ -117,4 +117,51 @@ flex-basis:calc((100% - 20px) / 2);
     }
         }
 
+
 /*treti ukol*/
+.piskvorky3 {
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+  margin: 20px;
+  max-width: 80vmin;
+}
+
+.hraje {
+
+  color:white;
+  font-size: 20px;
+}
+
+.tlacitkoDomecek {
+  background-color: #1cbb96;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.tlacitkoDomecek:hover {
+    background-color: #1cbb96;
+  }
+
+
+.tlacitkoRestart {
+  background-color: #0197f6;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.tlacitkoRestart:hover {
+  background-color:  #0090e9;
+}
+
+.buttonTlacitko {
+  width: 10%;
+  aspect-ratio: 1 / 1;
+}
+
+
+
