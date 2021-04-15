@@ -119,16 +119,15 @@ flex-basis:calc((100% - 20px) / 2);
 
 
 /*treti ukol*/
-.piskvorky3 {
+
+
+h3 {
   font-family: 'Lobster', cursive;
   font-size: 40px;
   margin: 20px;
-  max-width: 80vmin;
-  background-color: none;
 }
 
 .hraje {
-
   color:white;
   font-size: 20px;
 }
