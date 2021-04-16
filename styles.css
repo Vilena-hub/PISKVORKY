@@ -120,31 +120,24 @@ flex-basis:calc((100% - 20px) / 2);
 
 /*treti ukol*/
 
+
 h3 {
   font-family: 'Lobster', cursive;
   font-size: 60px;
-  margin: 20px;
-  margin-left:500px;
-}
-
-.strankaHra{
-  width: 80vw; 
-  height: 80vw
+  margin: 30px 0 0 0;
+  padding-left: 500px;
 }
 
 .hraje {
   color:white;
   font-size: 30px;
-  padding-left:10px;
+  padding-left: 250px;
 }
 
 .tlacitkoDomecek {
   background-color:#1fcca4;
-  padding: 20px 30px;
-  font-size: 10px;
-  margin: 4px;
-  width: 8%;
   border-radius:6px;
+  margin:3px;
 }
 
 .tlacitkoDomecek:hover, :focus {
@@ -154,11 +147,8 @@ h3 {
 .tlacitkoRestart {
   background-color: #0197f6;
   color: white;
-  padding: 20px 30px;
-  font-size: 10px;
-  margin: 4px;
-  width: 8%;
   border-radius:6px;
+  margin:3px;
 }
 
 .tlacitkoRestart:hover, :focus {
@@ -169,7 +159,6 @@ h3 {
   display:flex;
   justify-content:space-between;
   width: 80vw;
-  margin-left:110px;
 }
 
 .buttonTlacitko {
@@ -188,7 +177,6 @@ h3 {
   display:flex;
   justify-content:flex-end;
   margin-bottom: 30px;
-  margin-left:500px;
 }
 
 .buttons {
@@ -196,14 +184,12 @@ h3 {
  flex-wrap: wrap; 
  width: 80vw; 
  height: 80vw;
- margin-left:110px;
+ padding-left: 250px;
     }
 
   .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  background-position: center;
+    width:30px;
+    margin:10px;
     }
 
 .circle {
