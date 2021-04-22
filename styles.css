@@ -124,14 +124,12 @@ flex-basis:calc((100% - 20px) / 2);
 h3 {
   font-family: 'Lobster', cursive;
   font-size: 60px;
-  margin: 30px 0 0 0;
-  padding-left: 500px;
+  font-weight:bold;
 }
 
 .hraje {
   color:white;
   font-size: 30px;
-  padding-left: 250px;
 }
 
 .tlacitkoDomecek {
@@ -157,26 +155,26 @@ h3 {
 
 .text {
   display:flex;
-  justify-content:space-between;
-  width: 80vw;
+  text-align:center;
+  align-items:center;
+  margin-left:120px;
 }
 
 .buttonTlacitko {
   width: 10%;
   border: 1px solid;
   margin:0;
-  padding:0;
   background-color: rgb(255,105,180, 0.3);
 }
 
 .buttonTlacitko:hover {
- background-color: rgb(255,105,180, 0.5);
+ background-color: rgba(243, 201, 222, 0.7);
 }
 
 .tlacitka {
   display:flex;
   justify-content:flex-end;
-  margin-bottom: 30px;
+  margin-left:800px;
 }
 
 .buttons {
@@ -184,7 +182,9 @@ h3 {
  flex-wrap: wrap; 
  width: 80vw; 
  height: 80vw;
- padding-left: 250px;
+ margin-left:120px;
+ background:transparent;
+ opacity:80%;
     }
 
   .center {
@@ -192,10 +192,11 @@ h3 {
     margin:10px;
     }
 
-.circle {
+.circleHraje {
 width: 0.7em;
 height: 0.7em;
 filter:invert(100%);
+display:block;
     }
 
 .hra {
