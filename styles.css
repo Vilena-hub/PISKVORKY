@@ -2,6 +2,9 @@
   box-sizing:border-box;
 }
 
+
+/*main page*/
+
 h1 {
   font-family: 'Lobster', cursive;
   font-size: 40px;
@@ -58,7 +61,7 @@ a {
   text-decoration: none;
 }
 
-/*druhy ukol*/
+/*rules*/
 
 .kolecko, .krizek {
   width: 1em;
@@ -118,18 +121,21 @@ flex-basis:calc((100% - 20px) / 2);
         }
 
 
-/*treti ukol*/
-
+/*start to play*/
 
 h3 {
   font-family: 'Lobster', cursive;
   font-size: 60px;
   font-weight:bold;
+  margin:20px 0 0 500px;
 }
 
 .hraje {
+  display:flex;
+  align-items:center;
   color:white;
   font-size: 30px;
+  font-weight:bold;
 }
 
 .tlacitkoDomecek {
@@ -147,6 +153,7 @@ h3 {
   color: white;
   border-radius:6px;
   margin:3px;
+  padding:0;
 }
 
 .tlacitkoRestart:hover, :focus {
@@ -154,16 +161,15 @@ h3 {
 }
 
 .text {
-  display:flex;
-  text-align:center;
-  align-items:center;
-  margin-left:120px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-left: 120px;
 }
 
 .buttonTlacitko {
   width: 10%;
   border: 1px solid;
-  margin:0;
   background-color: rgb(255,105,180, 0.3);
 }
 
@@ -193,8 +199,7 @@ h3 {
     }
 
 .circleHraje {
-width: 0.7em;
-height: 0.7em;
+width:20px;
 filter:invert(100%);
 display:block;
     }
