@@ -67,6 +67,15 @@ a {
   width: 1em;
   height: 1em;
   filter:invert(100%);
+  background-size:100%;
+}
+
+.kolecko {
+  background-image:url(images/circle.svg);
+}
+
+.krizek {
+  background-image:url(images/cross.svg);
 }
 
 .piskvorky {
