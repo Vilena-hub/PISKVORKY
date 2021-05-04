@@ -5,18 +5,20 @@ let currentSign="circleHraje";
 const kdoHrajeElm=document.querySelector("#hrac");
 
 const currentPlayer = (event) => {
-if(currentSign==="circleHraje") {
-event.target.classList.add("kolecko");
-event.target.disabled = true;
-kdoHrajeElm.src = "images/cross.svg";
-kdoHrajeElm.alt = "obrazek krize";
-currentSign = "krizek";
+ if(currentSign==="circleHraje") {
+ event.target.classList.add("kolecko");
+ event.target.style.filter = 'none';
+ event.target.disabled = true;
+ kdoHrajeElm.src = "images/cross.svg";
+ kdoHrajeElm.alt = "obrazek krize";
+ currentSign = "krizek";
 } else {
-event.target.classList.add("krizek");
-event.target.disabled = true;
-kdoHrajeElm.src="images/circle.svg";
-kdoHrajeElm.alt = "obrazek kolecka";
-currentSign = "circleHraje";
+ event.target.classList.add("krizek");
+ event.target.style.filter = 'none';
+ event.target.disabled = true;
+ kdoHrajeElm.src="images/circle.svg";
+ kdoHrajeElm.alt = "obrazek kolecka";
+ currentSign = "circleHraje";
 }
 };
 
