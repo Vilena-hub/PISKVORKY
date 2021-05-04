@@ -171,9 +171,8 @@ h3 {
 
 .text {
   display:flex;
-  margin-left:0 auto;
   margin-bottom:15px;
-  width:80vw;
+  width: 80vmin; 
   justify-content:space-between; 
 }
 
@@ -194,9 +193,8 @@ h3 {
 .buttons {
  display: flex; 
  flex-wrap: wrap; 
- width: 80vw; 
- height: 80vw;
- margin-left:0 auto;
+ width: 80vmin;  
+ height: 80vmin;
  background:transparent;
  opacity:80%;
     }
@@ -214,4 +212,5 @@ filter:invert(100%);
 
 .hra {
  max-width: 80vmin;
+ margin:0 auto;
     }
