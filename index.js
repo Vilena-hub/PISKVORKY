@@ -12,6 +12,7 @@ const currentPlayer = (event) => {
  kdoHrajeElm.src = "images/cross.svg";
  kdoHrajeElm.alt = "obrazek krize";
  currentSign = "krizek";
+
 } else {
  event.target.classList.add("krizek");
  event.target.style.filter = 'none';
@@ -19,6 +20,10 @@ const currentPlayer = (event) => {
  kdoHrajeElm.src="images/circle.svg";
  kdoHrajeElm.alt = "obrazek kolecka";
  currentSign = "circleHraje";
+}
+
+if (isWinningMove(event.target)) {
+window.alert("You win")
 }
 };
 
@@ -31,14 +36,13 @@ for (let i = 0; i < buttonsElm.length; i++) {
 //Let's play//
 
 const getSymbol = (field) => {
-
-	if (field.classList.contains('buttons__buttonTlacitko--krizek')) {
+console.log (field.classList)
+	if (field.classList.contains('buttons_buttonTlacitko--krizek')) {
 		return 'krizek'
-	} else if (field.classList.contains('buttons__buttonTlacitko--kolecko')) {
+	} else if (field.classList.contains('buttons_buttonTlacitko--kolecko')) {
 		return 'circleHraje'
 	}
-}
-
+};
 
 const boardSize = 10;
 const fields = document.querySelectorAll('.buttons__buttonTlacitko');
@@ -111,8 +115,3 @@ const isWinningMove = (field) => {
 
 	return false
 }
-
-
-//Funkci isWinningMove pusť s každým nově přidaným symbolem.
-
-//Pokud vrátí true, zobraz alert s hláškou, který hráč vyhrál.
