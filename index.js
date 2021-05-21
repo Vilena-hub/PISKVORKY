@@ -22,9 +22,12 @@ const currentPlayer = (event) => {
  currentSign = "circleHraje";
 }
 
-if (isWinningMove(event.target)) {
-window.alert("You win")
-}
+if (isWinningMove(event.target)===true&&currentSign==="krizek") {
+  window.alert("Vyhrálo kolečko")
+  } else if (isWinningMove(event.target)===true&&currentSign==="circleHraje") {
+		window.alert("Vyhrál křížek")
+		}
+
 };
 
 
@@ -36,16 +39,15 @@ for (let i = 0; i < buttonsElm.length; i++) {
 //Let's play//
 
 const getSymbol = (field) => {
-console.log (field.classList)
-	if (field.classList.contains('buttons_buttonTlacitko--krizek')) {
+	if (field.classList.contains('krizek')) {
 		return 'krizek'
-	} else if (field.classList.contains('buttons_buttonTlacitko--kolecko')) {
-		return 'circleHraje'
+	} else if (field.classList.contains('kolecko')) {
+		return 'kolecko'
 	}
 };
 
 const boardSize = 10;
-const fields = document.querySelectorAll('.buttons__buttonTlacitko');
+const fields = document.querySelectorAll('.buttonTlacitko');
 const getField = (row, column) => fields[row * boardSize + column]
 
 
